@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EA41E2824A72E3600807A96 /* tbs.mid in Resources */ = {isa = PBXBuildFile; fileRef = 0EA41E2724A72E3600807A96 /* tbs.mid */; };
+		0EC0987724A6459200D21FE1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC0987624A6459200D21FE1 /* AVFoundation.framework */; };
 		0EF5FAAA249CD3BE00DDA2BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5FAA9249CD3BE00DDA2BC /* AppDelegate.m */; };
 		0EF5FAAC249CD3C000DDA2BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5FAAB249CD3C000DDA2BC /* Assets.xcassets */; };
 		0EF5FAAF249CD3C000DDA2BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5FAAD249CD3C000DDA2BC /* MainMenu.xib */; };
 		0EF5FAB2249CD3C000DDA2BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5FAB1249CD3C000DDA2BC /* main.m */; };
-		0EF5FABF249CEDC100DDA2BC /* NSGenerateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5FABE249CEDC100DDA2BC /* NSGenerateView.m */; };
+		0EF5FABF249CEDC100DDA2BC /* NSGenerateView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0EF5FABE249CEDC100DDA2BC /* NSGenerateView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EA41E2724A72E3600807A96 /* tbs.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = tbs.mid; sourceTree = "<group>"; };
+		0EC0987624A6459200D21FE1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0EF5FAA5249CD3BE00DDA2BC /* KeyGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF5FAA8249CD3BE00DDA2BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EF5FAA9249CD3BE00DDA2BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -25,7 +29,7 @@
 		0EF5FAB3249CD3C000DDA2BC /* KeyGen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyGen.entitlements; sourceTree = "<group>"; };
 		0EF5FABA249CD67700DDA2BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		0EF5FABD249CEDC100DDA2BC /* NSGenerateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSGenerateView.h; sourceTree = "<group>"; };
-		0EF5FABE249CEDC100DDA2BC /* NSGenerateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSGenerateView.m; sourceTree = "<group>"; };
+		0EF5FABE249CEDC100DDA2BC /* NSGenerateView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NSGenerateView.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC0987724A6459200D21FE1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EC0987524A6459200D21FE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EC0987624A6459200D21FE1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0EF5FA9C249CD3BE00DDA2BC = {
 			isa = PBXGroup;
 			children = (
 				0EF5FAA7249CD3BE00DDA2BC /* KeyGen */,
 				0EF5FAA6249CD3BE00DDA2BC /* Products */,
+				0EC0987524A6459200D21FE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +72,7 @@
 		0EF5FAA7249CD3BE00DDA2BC /* KeyGen */ = {
 			isa = PBXGroup;
 			children = (
+				0EA41E2724A72E3600807A96 /* tbs.mid */,
 				0EF5FAA8249CD3BE00DDA2BC /* AppDelegate.h */,
 				0EF5FAA9249CD3BE00DDA2BC /* AppDelegate.m */,
 				0EF5FAAB249CD3C000DDA2BC /* Assets.xcassets */,
@@ -66,7 +81,7 @@
 				0EF5FAB1249CD3C000DDA2BC /* main.m */,
 				0EF5FAB3249CD3C000DDA2BC /* KeyGen.entitlements */,
 				0EF5FABD249CEDC100DDA2BC /* NSGenerateView.h */,
-				0EF5FABE249CEDC100DDA2BC /* NSGenerateView.m */,
+				0EF5FABE249CEDC100DDA2BC /* NSGenerateView.mm */,
 			);
 			path = KeyGen;
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA41E2824A72E3600807A96 /* tbs.mid in Resources */,
 				0EF5FAAC249CD3C000DDA2BC /* Assets.xcassets in Resources */,
 				0EF5FAAF249CD3C000DDA2BC /* MainMenu.xib in Resources */,
 			);
@@ -142,7 +158,7 @@
 			files = (
 				0EF5FAB2249CD3C000DDA2BC /* main.m in Sources */,
 				0EF5FAAA249CD3BE00DDA2BC /* AppDelegate.m in Sources */,
-				0EF5FABF249CEDC100DDA2BC /* NSGenerateView.m in Sources */,
+				0EF5FABF249CEDC100DDA2BC /* NSGenerateView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -263,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;

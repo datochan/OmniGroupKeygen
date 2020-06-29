@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[NSData(Ascii) ascii26String]:NSGenerateView.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "v24">
+            </PersistentString>
+            <PersistentString
+               value = "v23">
+            </PersistentString>
+            <PersistentString
+               value = "*(&amp;v23 + appFlagItem--)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NSGenerateView createSerial:withAppIdx:]:NSGenerateView.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "digest[10]">
+            </PersistentString>
+            <PersistentString
+               value = "digest[0]">
+            </PersistentString>
+            <PersistentString
+               value = "digest[5]">
+            </PersistentString>
+            <PersistentString
+               value = "digest[15]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
